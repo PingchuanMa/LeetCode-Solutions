@@ -15,22 +15,20 @@ public:
         return ans;
     }
     void match(TreeNode *node, int sum, std::vector<std::vector<int> > &ans, std::vector<int> &path, int target) {
-        if (sum > target) {
-            return \;
-        }
-        if (node == NULL) {
+		if (node == NULL) {
+			return;
+		}
+		path.push_back(node->val);
+		sum += node->val;
+		if (node->left == NULL && node->right == NULL) {
             if (sum == target) {
                 ans.push_back(*(new std::vector<int>(path)));
-                path.pop_back();
-                return;
             }
-            else {
-                return;
-            }
+			path.pop_back();
+			return;
         }
-        path.push_back(node->val);
-        match(node->left, sum + node->val, ans, path, target);
-        match(node->right, sum + node->val, ans, path, target);
+        match(node->left, sum, ans, path, target);
+        match(node->right, sum, ans, path, target);
         path.pop_back();
     }
 };
