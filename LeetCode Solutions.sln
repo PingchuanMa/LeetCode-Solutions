@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "141 Linked List Cycle", "14
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142 Linked List Cycle II", "142 Linked List Cycle II\142 Linked List Cycle II.vcxproj", "{0B5C09A4-9470-4E99-BD51-C7C5F879EE58}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "94 Binary Tree Inorder Traversal", "94 Binary Tree Inorder Traversal\94 Binary Tree Inorder Traversal.vcxproj", "{7820F62B-70C9-4B43-880F-D0720BC5B55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{0B5C09A4-9470-4E99-BD51-C7C5F879EE58}.Release|x64.Build.0 = Release|x64
 		{0B5C09A4-9470-4E99-BD51-C7C5F879EE58}.Release|x86.ActiveCfg = Release|Win32
 		{0B5C09A4-9470-4E99-BD51-C7C5F879EE58}.Release|x86.Build.0 = Release|Win32
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Debug|x64.ActiveCfg = Debug|x64
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Debug|x64.Build.0 = Debug|x64
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Debug|x86.ActiveCfg = Debug|Win32
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Debug|x86.Build.0 = Debug|Win32
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x64.ActiveCfg = Release|x64
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x64.Build.0 = Release|x64
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x86.ActiveCfg = Release|Win32
+		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
