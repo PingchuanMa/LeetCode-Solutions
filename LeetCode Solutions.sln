@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142 Linked List Cycle II", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "94 Binary Tree Inorder Traversal", "94 Binary Tree Inorder Traversal\94 Binary Tree Inorder Traversal.vcxproj", "{7820F62B-70C9-4B43-880F-D0720BC5B55A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "112 Path Sum", "112 Path Sum\112 Path Sum.vcxproj", "{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x64.Build.0 = Release|x64
 		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x86.ActiveCfg = Release|Win32
 		{7820F62B-70C9-4B43-880F-D0720BC5B55A}.Release|x86.Build.0 = Release|Win32
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Debug|x64.ActiveCfg = Debug|x64
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Debug|x64.Build.0 = Debug|x64
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Debug|x86.Build.0 = Debug|Win32
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x64.ActiveCfg = Release|x64
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x64.Build.0 = Release|x64
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x86.ActiveCfg = Release|Win32
+		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
