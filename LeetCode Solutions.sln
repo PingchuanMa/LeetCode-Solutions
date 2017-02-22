@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "94 Binary Tree Inorder Trav
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "112 Path Sum", "112 Path Sum\112 Path Sum.vcxproj", "{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "217 Contains Duplicate", "217 Contains Duplicate\217 Contains Duplicate.vcxproj", "{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x64.Build.0 = Release|x64
 		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x86.ActiveCfg = Release|Win32
 		{7FF87F27-5AEB-42F3-AA13-E620E71C73A4}.Release|x86.Build.0 = Release|Win32
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Debug|x64.ActiveCfg = Debug|x64
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Debug|x64.Build.0 = Debug|x64
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Debug|x86.Build.0 = Debug|Win32
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Release|x64.ActiveCfg = Release|x64
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Release|x64.Build.0 = Release|x64
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Release|x86.ActiveCfg = Release|Win32
+		{EF34D2F6-A4EF-4905-BD81-E11D602A8C03}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
