@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "118 Pascal's Triangle", "11
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119 Pascal's Triangle II", "119 Pascal's Triangle II\119 Pascal's Triangle II.vcxproj", "{D64794FE-BEE4-460F-AA83-A8BF4F349220}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3 Longest Substring Without Repeating Characters", "3 Longest Substring Without Repeating Characters\3 Longest Substring Without Repeating Characters.vcxproj", "{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{D64794FE-BEE4-460F-AA83-A8BF4F349220}.Release|x64.Build.0 = Release|x64
 		{D64794FE-BEE4-460F-AA83-A8BF4F349220}.Release|x86.ActiveCfg = Release|Win32
 		{D64794FE-BEE4-460F-AA83-A8BF4F349220}.Release|x86.Build.0 = Release|Win32
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Debug|x64.ActiveCfg = Debug|x64
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Debug|x64.Build.0 = Debug|x64
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Debug|x86.Build.0 = Debug|Win32
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Release|x64.ActiveCfg = Release|x64
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Release|x64.Build.0 = Release|x64
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Release|x86.ActiveCfg = Release|Win32
+		{4C2BEDDF-3D27-4061-AD94-E8EC19380B0F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
