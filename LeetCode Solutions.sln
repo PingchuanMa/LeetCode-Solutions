@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6 ZigZag Conversion", "6 Zi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 Reverse Integer", "7 Reverse Integer\7 Reverse Integer.vcxproj", "{BF53D58F-A8C5-40D0-A8F3-291C9176137C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "38 Count and Say", "38 Count and Say\38 Count and Say.vcxproj", "{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{BF53D58F-A8C5-40D0-A8F3-291C9176137C}.Release|x64.Build.0 = Release|x64
 		{BF53D58F-A8C5-40D0-A8F3-291C9176137C}.Release|x86.ActiveCfg = Release|Win32
 		{BF53D58F-A8C5-40D0-A8F3-291C9176137C}.Release|x86.Build.0 = Release|Win32
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Debug|x64.ActiveCfg = Debug|x64
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Debug|x64.Build.0 = Debug|x64
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Debug|x86.Build.0 = Debug|Win32
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Release|x64.ActiveCfg = Release|x64
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Release|x64.Build.0 = Release|x64
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Release|x86.ActiveCfg = Release|Win32
+		{7476B869-B39D-4AE9-B0CE-D0CBC4BBCDD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
