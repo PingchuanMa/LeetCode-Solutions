@@ -11,7 +11,7 @@ public:
         for (auto ite = nums.begin(); ite != nums.end(); ++ite) {
             ss << *ite;
         }
-        return ss.str()[0] == "0" ? "0" : ss.str();
+        return (ss.str()[0] == "0") ? "0" : ss.str();
     }
     static bool comp(int a, int b) {
         stringstream ssa, ssb;
