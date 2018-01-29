@@ -14,14 +14,27 @@ public:
             return result;
         }
         result.reserve(length * width);
-        int lWall = 0, rWall = 0, uWall = 0, dWall = 0;
+        int lWall = 0, rWall = 0, uWall = 1, dWall = 0;
         int i = 0, j = -1;
         bool moving = false;
         while (result.size() < length * width) {
-            while (j < width - rWall) {
+            while (j < width - rWall - 1) {
                 result.push_back(matrix[i][++j]);
-                moving = true;
             }
+            ++rWall;
+            while (i < length - dWall - 1) {
+                result.push_back(matrix[++i][j]);
+            }
+            ++dWall;
+            while (j > lWall) {
+                result.push_back(matrix[i][--j]);
+            }
+            ++lWall;
+            while (i > uWall) {
+                result.push_back(matrix[--i][j]);
+            }
+            ++uWall;
         }
+        return result;
     }
 };
