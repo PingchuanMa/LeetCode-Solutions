@@ -21,19 +21,35 @@ public:
             while (j < width - rWall - 1) {
                 result.push_back(matrix[i][++j]);
             }
-            ++rWall;
+            if (result.size() < length * width) {
+                ++rWall;
+            } else {
+                break;
+            }
             while (i < length - dWall - 1) {
                 result.push_back(matrix[++i][j]);
             }
-            ++dWall;
+            if (result.size() < length * width) {
+                ++dWall;
+            } else {
+                break;
+            }
             while (j > lWall) {
                 result.push_back(matrix[i][--j]);
             }
-            ++lWall;
+            if (result.size() < length * width) {
+                ++lWall;
+            } else {
+                break;
+            }
             while (i > uWall) {
                 result.push_back(matrix[--i][j]);
             }
-            ++uWall;
+            if (result.size() < length * width) {
+                ++uWall;
+            } else {
+                break;
+            }
         }
         return result;
     }
