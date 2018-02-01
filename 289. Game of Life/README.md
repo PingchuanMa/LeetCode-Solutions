@@ -17,3 +17,5 @@ Write a function to compute the next state (after one update) of the board given
 2. In this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?
 
 ## Solution
+
+Since the state is represented by an integer, we can use the last two bits to stand for if this cell is live now and then, respectively. Don't forget we shouldn't add itself to the counter. Then we right shift this number by one, then nailed it.

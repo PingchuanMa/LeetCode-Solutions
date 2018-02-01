@@ -18,13 +18,12 @@ public:
                 int cnt = 0;
                 for (int k = -1; k < 2; ++k) {
                     for (int l = -1; l < 2; ++l) {
-                        if (i + k >= 0 && i + k < length && j + l >= 0 && j + l < length) {
-                            if (board[i + k][j + l] & MASK) {
-                                ++cnt;
-                            }
+                        if (i + k >= 0 && i + k < length && j + l >= 0 && j + l < width) {
+                            cnt += board[i + k][j + l] & MASK;
                         }
                     }
                 }
+                cnt -= board[i][j];
                 if (cnt == 3 || (cnt == 2 && board[i][j])) {
                     board[i][j] |= LIVE;
                 }
