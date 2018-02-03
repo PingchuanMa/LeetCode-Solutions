@@ -18,3 +18,5 @@ transactions = [buy, sell, cooldown, buy, sell]
 ```
 
 ## Solution
+
+Above all, this is a DP problem obviously. We can create two arrays to record the max profit we could make if our last action is SELL or BUY. If the last action is BUY, we will either do nothing and inherent from last BUY profit, or buy the stock and minus nowadays price from SELL profit two days ago (to avoid cooldown time). Moreover, if the last action is SELL, we will either no nothing and inherent from last SELL profit, or sell the stock and add nowadays price to BUY profit yesterday. 
