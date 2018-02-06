@@ -11,20 +11,20 @@ struct TreeNode {
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
-        int total = 0;
-        _pathSum(root, 0, sum, total);
-        return total;
+        if (!root) {
+            return 0;
+        }
+        return pathSumHelper(root, sum) + pathSum(root->left, sum) + pathSum(root->right, sum);
     }
-    void _pathSum(TreeNode *node, int sum, int target, int &total) {
-        if (!node) {
-            return;
+    int pathSumHelper(TreeNode *root, int res) {
+        if (!root) {
+            return 0;
         }
-        if (sum + node->val == target) {
-            ++total;
+        int ret = pathSumHelper(root->left, res - root->val) +
+                  pathSumHelper(root->right, res - root->val);
+        if (res == root->val) {
+            return ret + 1;
         }
-        _pathSum(node->left, sum + node->val, target, total);
-        _pathSum(node->left, 0, target, total);
-        _pathSum(node->right, sum + node->val, target, total);
-        _pathSum(node->right, 0, target, total);
+        return ret;
     }
 };
