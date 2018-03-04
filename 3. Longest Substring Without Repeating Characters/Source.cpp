@@ -8,15 +8,20 @@ public:
         int left = 0, right = 0;
         int ans = 0;
         while (right < s.length()) {
-            if (detector.find(s[right]) == detector.end()) { detector[s[right]] = right; ++right; }
-            else {
-                if (right - left > ans) { ans = right - left; }
+            if (detector.find(s[right]) == detector.end()) {
+                detector[s[right]] = right; ++right;
+            } else {
+                if (right - left > ans) {
+                    ans = right - left;
+                }
                 left = detector[s[right]] + 1;
                 right = left;
                 detector.clear();
             }
         }
-        if (right - left > ans) { ans = right - left; }
+        if (right - left > ans) {
+            ans = right - left;
+        }
         return ans;
     }
 };
